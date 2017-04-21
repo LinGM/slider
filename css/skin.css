@@ -1,0 +1,13 @@
+a{text-decoration:none;}
+#container{width:600px;height:400px;position:relative;overflow:hidden;margin:0 auto;}
+#container img{width:600px;height:400px;float:left;}
+#list{position:absolute;width:3600px;height:400px;left:-600px;}
+
+#dot{position:absolute;height:10px;left:50%;margin-left:-22.5px;bottom:40px;z-index:2}
+#dot span{display:inline-block;width:10px;height:10px;border-radius:50%;background:rgba(240,240,240,.6);cursor:pointer;float:left;margin-right:5px;}
+#dot .on {  background: #fff;}
+.arrow { -webkit-user-select:none;user-select:none;cursor: pointer; display: none; line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top: 180px; background-color: rgba(0,0,0,.3); color: #fff;}
+.arrow:hover { background-color: rgba(0,0,0,.7);}
+#container:hover .arrow { display: block;}
+#prev { left: 20px;}
+#next { right: 20px;}
